@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //Tipul de monede
+    int a;
+    int b;
+    int c;
+
+    //Cate monede are de tip fiecare
+    int n;
+    int m;
+    int p;
+
+    cout<<"Cat valoreaza monedele de tip 1, 2 si 3??"<<endl;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+
+    cout<<"Cate monede are lggle de tip 1, 2 si 3??"<<endl;
+    cin>>n;
+    cin>>m;
+    cin>>p;
+
+    cout<<"Suma pe care o are:"<<endl;
+    cout<<a * n + b * m + c * p<<endl;
+
+    return 0;
+}
